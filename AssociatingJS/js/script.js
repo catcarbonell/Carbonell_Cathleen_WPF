@@ -1,7 +1,7 @@
 // JavaScript
 
-var age; //declaration
-age = 25; //definition
-//storage container = value
+var age = 25;
 
-var yearOfBirth = 1989; //declaring and defining on the same line
+var isStudent = false;
+
+var firstName= "Cat"
