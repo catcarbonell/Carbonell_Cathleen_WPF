@@ -2,4 +2,4 @@
 
 var personas = ["Penthesilea", "Orpheus", "Take Mikazuchi", "Izanagi"];
 
-console.log(personas[0]);
+console.log(personas[5]);
