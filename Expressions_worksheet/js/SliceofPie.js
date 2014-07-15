@@ -6,8 +6,7 @@
 var slices = 8;
 
 // People variable
-
-var people = 20;
+var people = 10;
 
 // Pizzas variable
 var wholepizza = 4;
