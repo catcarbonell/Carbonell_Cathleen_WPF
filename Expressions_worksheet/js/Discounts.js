@@ -22,4 +22,6 @@ var taxamount = scarfnotax * tax;
 
 // Equation for the scarf plus tax
 var total = scarfnotax + taxamount;
-console.log(total);
+
+// Result to print
+console.log("Your scarf was originally $" + scarf + ", but after a 25% discount, it is now $" + scarfnotax + " without tax, and $" + total + " with tax.");
