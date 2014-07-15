@@ -7,4 +7,7 @@ var groceries = [36, 48, 25, 30, 28];
 
 //Total spent on groceries
 var totalgroc = groceries[0]+ groceries[1] + groceries[2] + groceries[3] + groceries[4];
-console.log(totalgroc);
+
+//Average spent on groceries
+var average = totalgroc / 5;
+console.log(average);
