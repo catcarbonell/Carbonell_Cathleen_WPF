@@ -1,5 +1,9 @@
 //Expressions - Casting
 
-var stringVar = "6";
-var result = 7 + Number(stringVar);
-console.log(result);
+var areaCode = 510;
+var firstPart = 851;
+var secPart = 1575;
+
+var phoneNo = areaCode + firstPart + secPart;
+
+console.log(phoneNo);
