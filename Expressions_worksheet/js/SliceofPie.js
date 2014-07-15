@@ -15,3 +15,9 @@ var wholepizza = 4;
 // Total slices of pizza
 var totalslices = slices * wholepizza;
 
+// Slices per person equation
+var yumpizza = totalslices / people;
+
+// Result to print
+console.log("Each person ate " + yumpizza + " slices of pizza at the party.")
+
