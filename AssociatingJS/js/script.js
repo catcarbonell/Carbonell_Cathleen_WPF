@@ -1,3 +1,3 @@
 //Prompts and Alerts
-var userInput = prompt("Enter your hear of birth");
-console.log(userInput);
+var width = prompt("We are calculating the area of a rectangle. Please enter width:");
+var height = prompt("Please enter height:");
