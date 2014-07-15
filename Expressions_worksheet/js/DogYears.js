@@ -9,4 +9,4 @@ var sparkyHuman = 1;
 var sparkyDog =  sparkyHuman * 7;
 
 //result to print
-console.log(sparkyDog)
+console.log("Sparky is " + sparkyHuman + " years old which is " + sparkyDog + " in dog years." )

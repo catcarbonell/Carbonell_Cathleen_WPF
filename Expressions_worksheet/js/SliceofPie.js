@@ -15,4 +15,3 @@ var wholepizza = 4;
 // Total slices of pizza
 var totalslices = slices * wholepizza;
 
-// 
