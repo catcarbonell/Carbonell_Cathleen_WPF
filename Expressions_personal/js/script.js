@@ -16,3 +16,7 @@ var cost = prompt("How much is each knife?");
 
 // Equation for the total cost of the knives
 var total = students * knives * cost;
+
+// Printed result
+console.log("If " + students + " students ordered the $" + cost + " knife, " + knives + " per student, the order will be $" + total + " in all.");
+
