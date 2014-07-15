@@ -10,4 +10,6 @@ var totalgroc = groceries[0]+ groceries[1] + groceries[2] + groceries[3] + groce
 
 //Average spent on groceries
 var average = totalgroc / 5;
-console.log(average);
+
+//Result to print
+console.log("You have spent a total of $" + totalgroc + " on groceries over 5 weeks. That is an average of $" + average + " per week.");
