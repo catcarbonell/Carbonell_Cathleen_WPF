@@ -1,6 +1,3 @@
-//Expressions - Assignment Operators
-
-var a = 3;
-//a ++ ; //a = a + 1 // a += 1
-a --;
-console.log(a);
+//Prompts and Alerts
+var userInput = prompt("Enter your hear of birth");
+console.log(userInput);
