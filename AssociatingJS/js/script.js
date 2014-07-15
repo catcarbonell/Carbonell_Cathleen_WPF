@@ -7,4 +7,4 @@ personas[2] = "Athena";
 
 var num = 2;
 
-console.log();
+console.log(personas[num]);
