@@ -19,4 +19,7 @@ var scarfnotax = scarf - discount;
 
 // Finding the total tax amount of the scarf
 var taxamount = scarfnotax * tax;
-console.log(taxamount);
+
+// Equation for the scarf plus tax
+var total = scarfnotax + taxamount;
+console.log(total);
