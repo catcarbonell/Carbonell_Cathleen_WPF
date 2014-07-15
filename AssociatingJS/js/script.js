@@ -1,4 +1,4 @@
 // Expressions - Modulo
 
-var remainder = 32 % 10;
+var remainder = 321 % 10;
 console.log(remainder);
