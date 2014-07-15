@@ -13,5 +13,6 @@ var container = containerwidth * containerheight;
 
 // Next, we should find out the resolution of their viewing method (browser, screen-- doesn't matter. We just need the resolution of it)
 var reswidth = prompt("What is your resolution width?");
+var resheight = prompt("What is your resolution height?");
 
 
