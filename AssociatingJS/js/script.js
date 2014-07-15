@@ -1,4 +1,1 @@
-// Expressions - Modulo
-
-var remainder = 321 % 10;
-console.log(remainder);
+//Expressions - PEMDAS - The Order of Operations
