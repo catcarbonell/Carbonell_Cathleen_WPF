@@ -1,3 +1,5 @@
-// JavaScript
+// Expressions
 
-var a = 2
+var a = 2;
+
+console.log(a);
