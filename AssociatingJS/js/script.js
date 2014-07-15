@@ -1,5 +1,6 @@
 // Expressions
 
 var a = 2;
-a = a + 3;
-console.log(a);
+var b;
+b = a + 3;
+console.log(b);
