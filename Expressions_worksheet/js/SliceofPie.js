@@ -9,7 +9,7 @@ var slices = 12;
 var people = 10;
 
 // Pizzas variable
-var wholepizza = 4;
+var wholepizza = 5;
 
 // Total slices of pizza
 var totalslices = slices * wholepizza;
