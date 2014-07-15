@@ -15,5 +15,8 @@ var tax = 0.075;
 var discount = scarf * discperc;
 
 // Discount equation part 2: subtracting discount total from scarf
-var totaldisc = scarf - discount;
-console.log(totaldisc);
+var scarfnotax = scarf - discount;
+
+// Finding the total tax amount of the scarf
+var taxamount = scarfnotax * tax;
+console.log(taxamount);
