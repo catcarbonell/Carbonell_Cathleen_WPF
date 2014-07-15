@@ -21,3 +21,5 @@ var resarea = reswidth * resheight;
 // Now, we have enough information to calculate the percentage of the container to resolution, multiplied by 100 since the end result will a floating-point number.
 var percentage = container / resarea * 100;
 
+//Printed result--we should have a floating-point percentage.
+console.log("A " + containerwidth + "x" + containerheight + "container should only take up " + percentage + "% of a " + reswidth + "x" + resheight + " resolution.");
