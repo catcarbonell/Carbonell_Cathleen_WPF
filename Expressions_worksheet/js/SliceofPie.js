@@ -18,5 +18,12 @@ var totalslices = slices * wholepizza;
 var yumpizza = totalslices / people;
 
 // Result to print
-console.log("Each person ate " + yumpizza + " slices of pizza at the party.")
+console.log("Each person ate " + yumpizza + " slices of pizza at the party.");
 
+//Slice of Pie part 2
+
+//Sparky receives remainder of the pizza; variable for Sparky's slices
+var sparky = totalslices % people;
+
+// Result to print
+console.log("Sparky got " + sparky + " slices of pizza.");
