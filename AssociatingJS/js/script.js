@@ -1,6 +1,3 @@
-// Expressions
+// Expressions - Age Example
 
-var a = 2;
-var b;
-b = a + 3;
-console.log(b);
+var yearBorn = 1989;
