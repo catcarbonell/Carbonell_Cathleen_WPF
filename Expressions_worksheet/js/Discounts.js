@@ -13,4 +13,7 @@ var tax = 0.075;
 
 // Discount equation part 1: finding how much is exactly taken off the original price = Original price * discount
 var discount = scarf * discperc;
-console.log(discount);
+
+// Discount equation part 2: subtracting discount total from scarf
+var totaldisc = scarf - discount;
+console.log(totaldisc);
