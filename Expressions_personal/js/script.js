@@ -14,3 +14,5 @@ var order = students * knives;
 // How much is the knife?
 var cost = prompt("How much is each knife?");
 
+// Equation for the total cost of the knives
+var total = students * knives * cost;
