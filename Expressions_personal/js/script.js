@@ -11,3 +11,6 @@ var knives = prompt("How many knives did they order, each?");
 // Equation for knives per student
 var order = students * knives;
 
+// How much is the knife?
+var cost = prompt("How much is each knife?");
+
