@@ -15,4 +15,7 @@ var container = containerwidth * containerheight;
 var reswidth = prompt("What is your resolution width?");
 var resheight = prompt("What is your resolution height?");
 
+// We will need the area information of the resolution, too
+var resarea = reswidth * resheight;
+
 
