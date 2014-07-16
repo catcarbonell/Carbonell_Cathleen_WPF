@@ -15,3 +15,7 @@ var piggies = [pig1, pig2, pig3];
 var sqftpig1 = piggies[0] /12;
 var sqftpig2 = piggies[1] /12;
 var sqftpig3 = piggies[2] /12;
+
+
+// We need the sum of all 3 plush pigs in sq ft
+var sumpiggies = sqftpig1 + sqftpig2 + sqftpig3;
