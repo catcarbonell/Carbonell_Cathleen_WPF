@@ -19,3 +19,7 @@ var sqftpig3 = piggies[2] /12;
 
 // We need the sum of all 3 plush pigs in sq ft
 var sumpiggies = sqftpig1 + sqftpig2 + sqftpig3;
+
+// We need the size of the room in sq ft
+var width = prompt("What is the width of the room in sq ft?");
+var height= prompt("What is the height of the room in sq ft?");
