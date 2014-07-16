@@ -25,3 +25,6 @@ var width = prompt("What is the width of the room in sq ft?");
 var height= prompt("What is the height of the room in sq ft?");
 
 var room = width * height;
+
+// The equation for the problem:
+var totalsqftpigs = sumpiggies / room;
