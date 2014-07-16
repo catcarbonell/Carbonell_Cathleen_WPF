@@ -28,3 +28,6 @@ var room = width * height;
 
 // The equation for the problem:
 var totalsqftpigs = sumpiggies / room;
+
+//Here is the printed result:
+console.log("The 3 pigs together take up " + totalsqftpigs + "sq ft in a " + width + "x" + height + " sq ft room.");
