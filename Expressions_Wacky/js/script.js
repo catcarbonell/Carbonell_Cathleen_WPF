@@ -1,6 +1,6 @@
 // Cathleen Carbonell | 7/17/204 | Expressions Wacky
 
-//How many plush pigs can fit in a room?
+//What is the average size of your plush pigs in sq ft?
 
 //First let's get the inch measurements of the plush pigs
 
@@ -17,16 +17,10 @@ var sqftpig3 = piggies[2] /12;
 
 
 // We need the sum of all 3 plush pigs in sq ft
-var sumpiggies = sqftpig1 + sqftpig2 + sqftpig3;
-
-// We need the size of the room in sq ft
-var width = prompt("What is the width of the room in sq ft?");
-var height= prompt("What is the height of the room in sq ft?");
-
-var room = width * height;
+var sumpiggies = piggies + [0]
 
 // The equation for the problem:
-var totalsqftpigs = sumpiggies / room;
+var totalpigs = sumpiggies / 3;
 
 //Here is the printed result:
-console.log("Only " + totalsqftpigs + " pig(gies)fit in a " + width + "x" + height + " sq ft room.");
+console.log("totalpigs);
