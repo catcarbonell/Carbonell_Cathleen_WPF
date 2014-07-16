@@ -23,3 +23,5 @@ var sumpiggies = sqftpig1 + sqftpig2 + sqftpig3;
 // We need the size of the room in sq ft
 var width = prompt("What is the width of the room in sq ft?");
 var height= prompt("What is the height of the room in sq ft?");
+
+var room = width * height;
