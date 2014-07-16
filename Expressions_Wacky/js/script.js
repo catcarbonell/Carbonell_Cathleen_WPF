@@ -11,3 +11,7 @@ var pig3 = prompt("Finally, pig 3?");
 
 //We need to find the sq ft measurement of the pigs, so since there are 12 inches to 1 sq ft, we divide the number by 12
 var piggies = [pig1, pig2, pig3];
+
+var sqftpig1 = piggies[0] /12;
+var sqftpig2 = piggies[1] /12;
+var sqftpig3 = piggies[2] /12;
