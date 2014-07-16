@@ -1,9 +1,8 @@
 // Cathleen Carbonell | 7/17/204 | Expressions Wacky
 
-// We are to find how much room 3 plush pigs take up in sq ft.
+//How many plush pigs can fit in a room?
 
-// Let's get the sizes of the plush pigs in inches (because plush toys are usually not measured in sq ft)
-// Variable automatically converts the measurement into sq ft
+//First let's get the inch measurements of the plush pigs
 
 var pig1 = prompt("What's the size of pig 1 in inches?");
 var pig2 = prompt("What is the size of pig 2?");
@@ -30,4 +29,4 @@ var room = width * height;
 var totalsqftpigs = sumpiggies / room;
 
 //Here is the printed result:
-console.log("The 3 pigs together take up " + totalsqftpigs + "sq ft in a " + width + "x" + height + " sq ft room.");
+console.log("Only " + totalsqftpigs + " pig(gies)fit in a " + width + "x" + height + " sq ft room.");
