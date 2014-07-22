@@ -9,3 +9,11 @@ if(age <10){
 }else{
     book = "The Time Machine";
 }
+
+
+console.log(book)
+
+//TERNARY
+
+book = (age < 10) ? "Green eggs and Ham" : "The Time Machine";
+console.log(book);
