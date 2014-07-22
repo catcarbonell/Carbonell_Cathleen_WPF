@@ -13,4 +13,6 @@ if(remainder >= capacity){
     console.log("Yes, you can make it without stopping for gas!");
 }else if(remainder < capacity){
     console.log("You only have" + remainder + "gallons of gas in your tank, better get gas now while you can!");
+}else if(0){
+    console.log("Please enter a number higher than 0.");
 }
