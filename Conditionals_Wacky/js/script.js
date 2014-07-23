@@ -14,4 +14,6 @@ var royalrumble = wrestlers/area * 100;
 // Finally. we have our If/Else If statements:
 if(royalrumble >= 1){
     console.log("Congratulations! You have enough wrestlers to run a Royal Rumble! OOH YEAH!");
+}else if(royalrumble < 1){
+    console.log("Sorry, brother. You'll need to recruit more wrestlers!");
 }
