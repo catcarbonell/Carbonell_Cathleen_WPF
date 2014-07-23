@@ -37,3 +37,5 @@ if(username === correctname && userpass === correctpass ){
 }else if(username == correctname && userpass != correctpass ){
     console.log("Password does not match our records");
 }
+
+// Movie Ticket Price
