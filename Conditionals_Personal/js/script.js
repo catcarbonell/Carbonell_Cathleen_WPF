@@ -32,10 +32,17 @@ if(isNaN(savings)){
 //Equation to find the amount of days it may take to achieve goal:
 var days = goalcost/savings;
 
-//Basic answers
+//Basic answer if they already achieved goal
 if(days === 0){
-    console.log("Congratulations! You have already achieved your goal!");
-}else {
-    console.log("If you save $" + savings + " per day, it will take " + days + " to achieve your goal! Good luck!");
+    console.log("Congratulations! You have already achieved your goal! Why did you need this calculator in the first place?");
 }
 
+//Fun answers!
+
+if(savings >= 100 && days <= 10){
+    console.log("If you save $" + savings + " per day, it will take " + days + " days to achieve your goal! Why did you even need to calculate it? You know you would have enough in no time. :P");
+}else if(savings <= 10 && days >= 100){
+    console.log("If you save $" + savings + " per day, it will take " + days + " days to achieve your goal! Good luck! ...With your patience. :P");
+}else{
+    console.log("If you save $" + savings + " per day, it will take " + days + " days to achieve your goal! Good luck!");
+}
