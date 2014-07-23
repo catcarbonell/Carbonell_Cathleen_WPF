@@ -9,11 +9,11 @@ var height = prompt("Enter the height of the ring in ft.");
 var area = width * height;
 
 // We will need many, MANY wrestlers! The ring must be filled to the point of over-capacity. Achieving more than 100% is best!
-var royalrumble = wrestlers/area * 100;
+var royalrumble = wrestlers/area;
 
 // Finally. we have our If/Else If statements:
 if(royalrumble >= 1){
     console.log("Congratulations! You have enough wrestlers to run a Royal Rumble! OOH YEAH!");
 }else if(royalrumble < 1){
-    console.log("Sorry, brother. You'll need to recruit more wrestlers!");
+    console.log("Sorry, brother, you're only at " + royalrumble + "%! To run a Royal Rumble in a " + area + "sq ft ring, You'll need to recruit more wrestlers!");
 }
