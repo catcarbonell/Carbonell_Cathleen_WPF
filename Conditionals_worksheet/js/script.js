@@ -42,6 +42,7 @@ if(username === correctname && userpass === correctpass ){
 // Givens: Ticket price regular $12, $10 for under 10 and over 55
 var age= prompt("Verify age: how old are you?");
 
-if( age => 55 || age <= 10){
+//The special circumstance is the discount given due to the age
+if( age >= 55 || age <= 10){
     console.log("The ticket price is $10");
 }
