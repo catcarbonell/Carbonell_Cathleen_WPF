@@ -40,3 +40,4 @@ if(username === correctname && userpass === correctpass ){
 
 // Movie Ticket Price
 // Givens: Ticket price regular $12, $10 for under 10 and over 55
+var age= prompt("Verify age: how old are you?");
