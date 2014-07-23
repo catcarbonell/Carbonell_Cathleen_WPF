@@ -14,7 +14,7 @@ var royalrumble = wrestlers/area;
 // We need a percentage equation for print.
 var percentage = royalrumble * 100;
 
-// Finally. we have our If/Else If statements:
+// Finally, we have our If/Else If statements:
 if(royalrumble >= 1){
     console.log("Congratulations! You have enough wrestlers to run a Royal Rumble! OOH YEAH!");
 }else if(royalrumble < 1){
