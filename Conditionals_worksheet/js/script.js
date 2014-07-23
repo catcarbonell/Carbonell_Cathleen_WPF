@@ -13,7 +13,7 @@ var remainder = tankremain/efficiency;
 // The capacity must be halved due to the fact you cannot go over-capacity when filling up a car. Also, in all honesty, no car that utilizes gas will make 200 miles straight without failing.
 if(remainder > capacity/2){
     console.log("Yes, you can make it without stopping for gas!");
-}else if(remainder < capacity/2) {
+}else if(remainder < capacity/2 || remainder == 0){
     console.log("You only have " + remainder + " gallons of gas in your tank, better get gas now while you can!");
 }
 
