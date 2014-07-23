@@ -13,10 +13,9 @@ var remainder = tankremain/efficiency;
 // The capacity must be halved due to the fact you cannot go over-capacity when filling up a car. Also, in all honesty, no car that utilizes gas will make 200 miles straight without failing.
 if(remainder > capacity/2){
     console.log("Yes, you can make it without stopping for gas!");
-}else if(remainder < capacity/2){
+}else if(remainder < capacity/2) {
     console.log("You only have " + remainder + " gallons of gas in your tank, better get gas now while you can!");
 }
-
 
 // Check the Login
 // Givens: Username and password entered by user (prompts), Correct username and password (remaining variables)
@@ -26,3 +25,15 @@ var username = prompt("Enter your username:");
 var userpass = prompt("Enter your password:");
 var correctname = "persondude";
 var correctpass = "omgwut";
+
+// The username and password absolutely MUST match!
+if(username === correctname && userpass === correctpass ){
+   console.log("Welcome, persondude!");
+
+// Only one logical operator was needed
+}else if(username != correctname){
+    console.log("User not found. Try again.");
+// If === was used, code will not function properly
+}else if(username == correctname && userpass != correctpass ){
+    console.log("Password does not match our records");
+}
