@@ -32,7 +32,10 @@ if(isNaN(savings)){
 //Equation to find the amount of days it may take to achieve goal:
 var days = goalcost/savings;
 
+//Basic answers
 if(days === 0){
-    console.log("Congratulations! You have already achieved your goal!")
+    console.log("Congratulations! You have already achieved your goal!");
+}else {
+    console.log("If you save $" + savings + " per day, it will take " + days + " to achieve your goal! Good luck!");
 }
 
