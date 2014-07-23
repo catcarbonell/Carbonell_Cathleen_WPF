@@ -7,25 +7,29 @@
 var goalcost = prompt("You want to save up for something special! \n How much is it?");
 
 // Code Validation
-if( goalcost === ""){
+if(goalcost === ""){
     goalcost = prompt("Type in a real number! No one likes a quitter. \n How much is it?");
 }
+
 //Testing if the user input is not a number
 if(isNaN(goalcost)){
     goalcost = prompt("Type in a real number! No one likes a quitter. \n How much is it?");
+}
 
 //Savings
 var savings = prompt("How much do you plan on saving per day?");
 
 // Code Validation
-    if( savings === ""){
-        savings = prompt("Type in a real number! No one likes a quitter. \n How much do you plan on saving per day?");
-    }
-//Testing if the user input is not a number
-    if(isNaN(savings)){
-        savings = prompt("Type in a real number! No one likes a quitter. \n How much do you plan on saving per day?");
+if(savings === ""){
+    savings = prompt("Type in a real number! No one likes a quitter. \n How much is it?");
+}
 
-// We must divide the cost by the how much we plan on saving per day, which will give us our answer!
+//Testing if the user input is not a number
+if(isNaN(savings)){
+    savings = prompt("Type in a real number! No one likes a quitter. \n How much is it?");
+}
+
+//Equation to find the amount of days it may take to achieve goal:
 var days = goalcost/savings;
 
-// Now for the many possibilities in this answer.
+
