@@ -46,3 +46,7 @@ var age= prompt("Verify age: how old are you?");
 if( age >= 55 || age <= 10){
     console.log("The ticket price is $10");
 }
+// Everyone else gets regular price.
+else{
+    console.log("The ticket price is $12");
+}
