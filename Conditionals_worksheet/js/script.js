@@ -19,3 +19,10 @@ if(remainder > capacity/2){
 
 
 // Check the Login
+// Givens: Username and password entered by user (prompts), Correct username and password (remaining variables)
+// Username: persondude Pass: omgwut
+
+var username = prompt("Enter your username:");
+var userpass = prompt("Enter your password:");
+var correctname = "persondude";
+var correctpass = "omgwut";
