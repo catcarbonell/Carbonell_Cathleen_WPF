@@ -18,5 +18,5 @@ var percentage = royalrumble * 100;
 if(royalrumble >= 1){
     console.log("Congratulations! You have enough wrestlers to run a Royal Rumble! OOH YEAH!");
 }else if(royalrumble < 1){
-    console.log("Sorry, brother, you're only at " + percentage + "%! To run a Royal Rumble in a " + area + " sq ft ring, You'll need to recruit more wrestlers!");
+    console.log("Sorry, brother. You're only at " + percentage + "%! To run a Royal Rumble in a " + area + " sq ft ring, You'll need to recruit more wrestlers!");
 }
