@@ -1,9 +1,11 @@
-//Functions - Parameters and Arguments
+//Functions - Anonymous Functions
 
-function dogYears(age){
-    var dogYears = age * 7;
-    console.log("Sparky is " + dogYears + " years old.")
+var calcArea = function(w, h){ //defining
+    //code the function runs
+    var area = w * h;
+    return area;
 }
 
-dogYears(4);
-dogYears(5);
+var a = calcArea(20, 30);
+
+console.log(a);
