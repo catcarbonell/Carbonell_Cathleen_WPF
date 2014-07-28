@@ -6,6 +6,19 @@
 
 var victim = prompt("Oh no! There are bees in the area!\n How many stings will it take to bring an animal down? \n Enter the victim's weight in pounds (lbs):");
 
-// We can figure out the equation right away.
+// We can figure out the equation right away...
 
-var death = victim / 8.666666667;
+//var death = victim / 8.666666667;
+
+// ...and this is what we will print:
+
+//console.log("It takes " + death + " bee stings to kill this animal.");
+
+// However, this must be made into a function, given different arguments.
+
+function beeDeath(victim){
+    var death = victim / 8.666666667;
+    return death;
+}
+
+beeDeath();
