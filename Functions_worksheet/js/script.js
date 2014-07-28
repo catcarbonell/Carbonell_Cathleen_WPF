@@ -4,7 +4,7 @@
 
 // We will need a prompt for the user to input how many pounds the victim is
 
-var victim = prompt("Oh no! There are bees in the area!\n How many stings will it take to bring an animal down? \n Enter the victim's weight in pounds (lbs):");
+//var victim = prompt("Oh no! There are bees in the area!\n How many stings will it take to bring an animal down? \n Enter the victim's weight in pounds (lbs):");
 
 // We can figure out the equation right away...
 
@@ -20,5 +20,10 @@ function beeDeath(victim){
     var death = victim / 8.666666667;
     return death;
 }
+var victim = beeDeath(prompt("Oh no! There are bees in the area!\n How many stings will it take to bring an animal down? \n Enter the victim's weight in pounds (lbs):"));
 
-beeDeath();
+// Decided to create an anonymous function var stings = beeDeath();
+
+// Print!
+
+console.log(victim);
