@@ -12,10 +12,8 @@
 
 // ...and this is what we will print:
 
-//
 
 // However, this must be made into a function, given different arguments.
-
 function beeDeath(victim){
     var death = victim / 8.666666667;
     return death;
@@ -25,5 +23,4 @@ function beeDeath(victim){
 var victim = beeDeath(prompt("Oh no! There are bees in the area!\n How many stings will it take to bring an animal down? \n Enter the victim's weight in pounds (lbs):"));
 
 // Print!
-
 console.log("It takes " + victim + " bee stings to kill this animal.");
