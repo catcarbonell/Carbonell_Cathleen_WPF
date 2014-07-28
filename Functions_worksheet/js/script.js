@@ -4,5 +4,6 @@
 
 // We will need a prompt for the user to input how many pounds the victim is
 
-prompt("Oh no! There are bees in the area!\n How many stings will it take to bring an animal down? \n Enter the victim's weight in lbs")
+prompt("Oh no! There are bees in the area!\n How many stings will it take to bring an animal down? \n Enter the victim's weight in pounds (lbs):");
 
+// Now
