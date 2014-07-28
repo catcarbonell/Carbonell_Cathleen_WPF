@@ -12,7 +12,7 @@
 
 // ...and this is what we will print:
 
-//console.log("It takes " + death + " bee stings to kill this animal.");
+//
 
 // However, this must be made into a function, given different arguments.
 
@@ -20,10 +20,10 @@ function beeDeath(victim){
     var death = victim / 8.666666667;
     return death;
 }
-var victim = beeDeath(prompt("Oh no! There are bees in the area!\n How many stings will it take to bring an animal down? \n Enter the victim's weight in pounds (lbs):"));
 
-// Decided to create an anonymous function var stings = beeDeath();
+// Decided to create an anonymous function
+var victim = beeDeath(prompt("Oh no! There are bees in the area!\n How many stings will it take to bring an animal down? \n Enter the victim's weight in pounds (lbs):"));
 
 // Print!
 
-console.log(victim);
+console.log("It takes " + victim + " bee stings to kill this animal.");
