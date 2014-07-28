@@ -4,6 +4,8 @@
 
 // We will need a prompt for the user to input how many pounds the victim is
 
-prompt("Oh no! There are bees in the area!\n How many stings will it take to bring an animal down? \n Enter the victim's weight in pounds (lbs):");
+var victim = prompt("Oh no! There are bees in the area!\n How many stings will it take to bring an animal down? \n Enter the victim's weight in pounds (lbs):");
 
-// Now
+// We can figure out the equation right away.
+
+var death = victim / 8.666666667;
