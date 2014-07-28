@@ -1,16 +1,8 @@
-//Functions - Basic Structure
+//Functions - Parameters and Arguments
 
-function outptMsg(){
-        console.log("Hello World");
-}
+calcArea(30, 20);
 
-function calcArea(){
-    var width = 20;
-    var height = 30;
-    var area = width * height;
+function calcArea(w, h){ //w=30, h=20
+    var area = w * h;
     console.log(area);
 }
-
-calcArea();
-outptMsg();
-
