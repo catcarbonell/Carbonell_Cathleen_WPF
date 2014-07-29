@@ -8,10 +8,12 @@
 //var weight = prompt("How much weight did you lift in lbs?");
 
 function repMax(){
-    var weight = prompt("How much weight did you lift in lbs?");
-    var reps = prompt("How many reps did you do?");
-    return weight * reps / 30;
+    return weight *(1 + reps / 30);
 }
+
+var weight = prompt("How much weight did you lift in lbs?");
+var reps = prompt("How many reps did you do?");
+
 //  WEIGHT Validation: while loop isNaN and empty string
 while(isNaN(weight) || weight === ""){
     weight = prompt("Bro, do you even lift?? \n How much weight did you lift in lbs?");
@@ -25,5 +27,4 @@ while(isNaN(reps) || reps === ""){
     reps = prompt("Bro, do you even lift?? \n How many reps did you do?");
 }
 
-
-repMax();
+console.log(repMax());
