@@ -27,4 +27,4 @@ while(isNaN(reps) || reps === "" || reps === 0){
     reps = prompt("Bro, do you even lift?? \n How many reps did you do?");
 }
 
-console.log(repMax());
+console.log("The most you can lift is " + repMax() + "lbs! Focus!");
