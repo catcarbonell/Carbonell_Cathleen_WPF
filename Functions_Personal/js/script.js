@@ -15,7 +15,7 @@ var weight = prompt("How much weight did you lift in lbs?");
 var reps = prompt("How many reps did you do?");
 
 //  WEIGHT Validation: while loop isNaN and empty string
-while(isNaN(weight) || weight === ""){
+while(isNaN(weight) || weight === "" || weight === 0){
     weight = prompt("Bro, do you even lift?? \n How much weight did you lift in lbs?");
 }
 
@@ -23,7 +23,7 @@ while(isNaN(weight) || weight === ""){
 //var reps = prompt("How many reps did you do?");
 
 //REPS Validation: while loop isNaN and empty string
-while(isNaN(reps) || reps === ""){
+while(isNaN(reps) || reps === "" || reps === 0){
     reps = prompt("Bro, do you even lift?? \n How many reps did you do?");
 }
 
