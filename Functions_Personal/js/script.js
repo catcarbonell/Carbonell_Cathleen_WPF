@@ -1,16 +1,4 @@
-//Functions - Basic Structure
+// Cathleen Carbonell 7/31/2014 Functions-- Personal
 
-function outptMsg(){
-        console.log("Hello World");
-}
-
-function calcArea(){
-    var width = 20;
-    var height = 30;
-    var area = width * height;
-    console.log(area);
-}
-
-calcArea();
-outptMsg();
+// Let's find out your 1 Rep Max! This is to figure out the maximum weight you can lift!
 
