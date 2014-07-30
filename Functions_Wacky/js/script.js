@@ -2,7 +2,7 @@
 // ENEMY ENCOUNTERED! -- This is the beginnings of a numbers-based role-playing game. The user must get the enemyHP down to zero.
 
 // Initial given: the enemyHP
-var enemyHP = 100;
+var enemyHP = 50;
 
 // Round 1, FIGHT! --  must initially prompt the user for how much attack points they will use
 var battleStart = prompt(" !!! ENEMY ENCOUNTERED !!! \n You can only hit him for up to 10 pts per round! \n How much power will you expend?");
@@ -15,15 +15,16 @@ var battleStart = prompt(" !!! ENEMY ENCOUNTERED !!! \n You can only hit him for
 
 // We will need the initial battle result.
 var battle = enemyHP - battleStart;
-
+console.log("Enemy is at " + battle + "HP! Keep going!");
 // Conditional statement considering how the battle goes
 
 if(battle <= 0){
-    console.log("Congratulations! You have slain your enemy!");
+    //console.log("Congratulations! You have slain your enemy!");
 }
 else{
     while(battle > 0){
         userAtk();
+        console.log("Enemy is at " + battle + "HP! Keep going!");
     }
     console.log("Congratulations! You have slain the enemy!");
     window.alert("You Win!");
