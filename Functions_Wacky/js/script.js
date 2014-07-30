@@ -30,12 +30,12 @@ function userAttack() {
     var userAP = userInteract * Math.random();
     var repeatAttack = resultStart - userAP;
     return repeatAttack;
-}
+
 if (repeatAttack > 0) {
     userAttack();
 } else if(repeatAttack <= 0) {
     console.log("Congratulations! You have slain your enemy!! Go out and celebrate!");
-}
+}}
 
 
 
