@@ -8,3 +8,11 @@ function images(imgW, imgH, shrink){
     var imgSize = imgW * imgH / shrink;
     return imgSize;
 }
+
+// USER INTERACTION
+
+var imgW = prompt("Enter the width in pixels"); // asking for the image width
+var imgH = prompt("Enter the height in pixels"); // asking for image height
+var shrink = prompt ("In terms of percentages, how much would you like to shrink your image? \n (Enter a number 1-100)") / 100;
+
+// We also need the screen resolution
