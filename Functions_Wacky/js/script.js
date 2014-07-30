@@ -21,15 +21,20 @@ var enemyHP = 100;
 function userAttack() {
     // Calling a prompt for each consecutive attack after
     userInteraction = prompt("How much damage will you deal this round? \n (Minimum: 1, maximum: 10)");
-    console.log(userInteraction * Math.random());
+    return enemyHP - (userInteraction * Math.random());
 }
 
-// Need a modification statement in case we reach our goal!
-/*if(enemyHP === 0){
+//Need a modification statement in case we reach our goal!
+if(enemyHP <= 0){
     console.log("Congratulations!! You have defeated the enemy!")
 } else{
     userAttack();
-} */
+}
+
+userAttack();
+
+//function enemyStats(){
+
+//console.log(enemyHP - userAttack());
 
 
-console.log(enemyHP - userAttack());
