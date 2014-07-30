@@ -16,3 +16,26 @@
 var userHP = 50; // This is what everything will be centered around: the user's and the enemy's health.
 var enemyHP = 100;
 
+var gameStart = prompt("ENEMY ENCOUNTERED!! You must defeat him before he gets you! \n How much attack points (AP) will you spend? \n (minimum: 1 , maximum: 10)");
+var resultStart = enemyHP - gameStart;
+
+if (resultStart > 0) {
+    userAttack();
+} else if (resultStart <= 0) {
+    console.log("Congratulations! You have slain your enemy!! Go out and celebrate!");
+}
+
+function userAttack() {
+    var userInteract = prompt('Your enemy is still alive!! \n How much AP will you spend?');
+    var userAP = userInteract * Math.random();
+    var repeatAttack = resultStart - userAP;
+    return repeatAttack;
+}
+if (repeatAttack > 0) {
+    userAttack();
+} else if(repeatAttack <= 0) {
+    console.log("Congratulations! You have slain your enemy!! Go out and celebrate!");
+}
+
+
+
