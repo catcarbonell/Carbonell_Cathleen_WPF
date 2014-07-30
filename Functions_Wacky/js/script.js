@@ -19,10 +19,10 @@ var enemyHP = 100;
 var gameStart = prompt("ENEMY ENCOUNTERED!! You must defeat him before he gets you! \n How much attack points (AP) will you spend? \n (minimum: 1 , maximum: 10)");
 var resultStart = enemyHP - gameStart;
 
-if (resultStart > 0) {
-    userAttack();
-} else if (resultStart <= 0) {
+if (resultStart <= 0) {
     console.log("Congratulations! You have slain your enemy!! Go out and celebrate!");
+} else if (resultStart > 0) {
+    userAttack();
 }
 
 var continuousAttack = resultStart - userAttack();
