@@ -2,14 +2,14 @@
 // ENEMY ENCOUNTERED! -- This is the beginnings of a numbers-based game. The user must get the enemyHP down to zero.
 
 // Initial given: the enemyHP
-var enemyHP = 20;
+var enemyHP = 100;
 
 // Round 1, FIGHT! --  must initially prompt the user for how much attack points they will use
 var battleStart = prompt(" !!! ENEMY ENCOUNTERED !!! \n You can only hit him for up to 10 pts per round! \n How much power will you expend?");
 
 // Since we have a few parameters for the fight, we must validate the prompt:
 
-    while(isNaN(battleStart) || battleStart === "" || battleStart > 10 || battleStart < 2 ){
+    while(isNaN(battleStart) || battleStart === "" || battleStart === 0){
       battleStart = prompt("HEY! Who the hell do you think you are?? \n Type in a number between 1-10!");
     }
 
@@ -35,9 +35,7 @@ function userAtk(){
     battle = userAP;
 
     // Validating the attackPoints prompt
-    while(isNaN(attackPoints) || attackPoints > 10 || attackPoints < 2 || attackPoints === ""){
-    attackPoints = prompt("HEY! Who the hell do you think you are?? \n Type in a number between 1-10!")
-
-     }
-
+    while(isNaN(attackPoints) || attackPoints === "" || attackPoints === 0){
+        attackPoints = prompt("HEY! Who the hell do you think you are?? \n Type in a number between 1-10!");
+    }
  }
