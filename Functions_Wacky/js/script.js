@@ -19,25 +19,18 @@ var enemyHP = 100;
 var gameStart = prompt("ENEMY ENCOUNTERED!! You must defeat him before he gets you! \n How much attack points (AP) will you spend? \n (minimum: 1 , maximum: 10)");
 var resultStart = enemyHP - gameStart;
 
-if (resultStart <= 0) {
-    console.log("Congratulations! You have slain your enemy!! Go out and celebrate!");
-} else if (resultStart > 0) {
-    userAttack();
-}
+var secondStrike = resultStart - userAttack();
 
-var continuousAttack = resultStart - userAttack();
+var userInteract = prompt('Your enemy is still alive!! \n How much AP will you spend?');
 
-function userAttack() {
-    var userInteract = prompt('Your enemy is still alive!! \n How much AP will you spend?');
+function userAttack(userInteract) {
     var userAP = userInteract * Math.random();
     return userAP;
 }
 
-console.log(continuousAttack);
-
-if (continuousAttack <= 0) {
-    console.log("Congratulations! You have slain your enemy!! Go out and celebrate!");
-} else if (continuousAttack > 0) {
+if (strike <= 0) {
+    console.log("Congratulations! You have slain your enemy!!");
+} else if (strike > 0) {
     userAttack();
 }
 
