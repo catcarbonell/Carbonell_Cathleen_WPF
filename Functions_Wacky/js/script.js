@@ -11,4 +11,7 @@
     At the same time, the enemy will be attacking, too, hitting for what the user attacks for,
  multiplied by 2.
 
-    Let's start with the function for user attack! */
+    Let's start with what we know... */
+
+var userHP = 50; // This is what everything will be centered around: the user's and the enemy's health.
+var enemyHP = 100; 
