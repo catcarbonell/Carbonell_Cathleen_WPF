@@ -16,10 +16,9 @@ var battleStart = prompt(" !!! ENEMY ENCOUNTERED !!! \n You can only hit him for
 // We will need the initial battle result.
 var battle = enemyHP - battleStart;
 console.log("Enemy is at " + battle + "HP! Keep going!");
-// Conditional statement considering how the battle goes
 
+// Conditional statement considering how the battle goes
 if(battle <= 0){
-    //console.log("Congratulations! You have slain your enemy!");
 }
 else{
     while(battle > 0){
