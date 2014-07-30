@@ -14,6 +14,7 @@
     Let's start with what we know... */
 
 //var userHP = 50; // This is what everything will be centered around: the user's and the enemy's health.
+
 var enemyHP = 100;
 
 var gameStart = prompt("!!! ENEMY ENCOUNTER !!! \n You can only attack for up to 10 points! \n How much will you attack for? \n (min: 1 max: 10)");
@@ -25,16 +26,16 @@ if(initialStrike <= 0){
     enemyHP = initialStrike;
 }
 
-console.log(enemyHP);
-
-/*if(enemyHP - userAtk() > 0){
-    userAtk();
-} else{
-    console.log("Congratulations! You have slain your enemy!");
-}
+var battle = initialStrike - userAtk();
 
 function userAtk(){
-    var repeatAtk = prompt("Oh no! The enemy is still alive! \n How much will you attack for? \n (min: 1 max: 10)");
+   var repeatAtk = prompt("Oh no! The enemy is still alive! \n How much will you attack for? \n (min: 1 max: 10)");
     userAP = repeatAtk * Math.random();
-} */
+}
+
+if(battle <= 0){console.log("Congratulations! You have slain your enemy!");
+}else {
+
+}
+
 
