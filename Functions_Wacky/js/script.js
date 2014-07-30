@@ -25,7 +25,7 @@ if(initialStrike <= 0){
     enemyHP = initialStrike;
 }
 
-console.log(initialStrike);
+console.log(enemyHP);
 
 /*if(enemyHP - userAtk() > 0){
     userAtk();
