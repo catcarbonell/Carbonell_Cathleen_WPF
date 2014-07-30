@@ -1,5 +1,5 @@
 // Cathleen Carbonell 7/27/2014 Functions -- Wacky
-// ENEMY ENCOUNTERED! -- This is the beginnings of a numbers-based game. The user must get the enemyHP down to zero.
+// ENEMY ENCOUNTERED! -- This is the beginnings of a numbers-based role-playing game. The user must get the enemyHP down to zero.
 
 // Initial given: the enemyHP
 var enemyHP = 100;
